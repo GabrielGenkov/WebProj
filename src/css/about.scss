@@ -1,0 +1,100 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+
+body{
+	background-color:#add8e6;
+	text-align:center;
+	margin:0;
+	font-family: Arial;
+}
+
+div.navbar{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+	position:fixed;
+	top: 0;
+	width: 100%;
+}
+
+div.navbar li{
+	float:left;
+}
+
+div.navbar li.right{
+	float:right;
+}
+
+div.navbar li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+div.navbar li a:hover:not(.active){
+	background-color:#111;
+}
+
+div.navbar li a.active:hover{
+	background-color:#006400;
+}
+
+div.navbar a.active{
+	background-color:#4CAF50;
+}
+
+div.afternav{
+	margin-top:50px;
+}
+
+.content{
+	border:3px solid #4CAF50;
+	padding:5px;
+	margin:0 auto;
+	width:350px;
+	margin-top:100px;
+	background-color:green;
+}
+
+.content::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.img{
+	float:right;
+	width:150px;
+	height:150px;
+}
+
+@media screen and (max-width: 500px){
+	div.navbar li.right,
+	div.navbar li{float:none;};
+	div.afternav{margin-top:250px;};
+}
+
+div.downnav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:rgba(0,0,0,0.3);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+div.downnav p{
+	color:white;
+}

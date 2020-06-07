@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "2.2.0",
+  "description": "project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "i": "^0.3.6"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GabrielGenkov",
+  "license": "ISC"
+}
