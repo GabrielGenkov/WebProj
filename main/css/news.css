@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: Arial; }
 
-div.navbar {
+nav.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,26 +20,26 @@ div.navbar {
   top: 0;
   width: 100%; }
 
-div.navbar li {
+nav.navbar li {
   float: left; }
 
-div.navbar li.right {
+nav.navbar li.right {
   float: right; }
 
-div.navbar li a {
+nav.navbar li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; }
 
-div.navbar li a:hover:not(.active) {
+nav.navbar li a:hover:not(.active) {
   background-color: #111; }
 
-div.navbar li a.active:hover {
+nav.navbar li a.active:hover {
   background-color: #006400; }
 
-div.navbar a.active {
+nav.navbar a.active {
   background-color: #4CAF50; }
 
 div.afternav {
@@ -89,8 +89,8 @@ div.afternav {
   padding: 2px 16px; }
 
 @media screen and (max-width: 500px) {
-  div.navbar li.right,
-  div.navbar li {
+  nav.navbar li.right,
+  nav.navbar li {
     float: none; }
   div.afternav {
     margin-top: 250px; } }
@@ -99,7 +99,7 @@ div.afternav {
   .card {
     margin-top: 20px; } }
 
-div.downnav {
+footer.downnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -109,5 +109,5 @@ div.downnav {
   bottom: 0;
   width: 100%; }
 
-div.downnav p {
+footer.downnav p {
   color: white; }

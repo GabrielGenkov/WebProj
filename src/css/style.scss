@@ -14,7 +14,7 @@ body{
 	font-family: Arial;
 }
 
-div.navbar{
+nav.navbar{
 	list-style-type:none;
 	margin:0;
 	padding:0;
@@ -25,15 +25,15 @@ div.navbar{
 	width: 100%;
 }
 
-div.navbar li{
+nav.navbar li{
 	float:left;
 }
 
-div.navbar li.right{
+nav.navbar li.right{
 	float:right;
 }
 
-div.navbar li a{
+nav.navbar li a{
 	display:block;
 	color:white;
 	text-align:center;
@@ -41,15 +41,15 @@ div.navbar li a{
 	text-decoration:none;
 }
 
-div.navbar li a:hover:not(.active){
+nav.navbar li a:hover:not(.active){
 	background-color:#111;
 }
 
-div.navbar li a.active:hover{
+nav.navbar li a.active:hover{
 	background-color:#006400;
 }
 
-div.navbar a.active{
+nav.navbar a.active{
 	background-color:#4CAF50;
 }
 
@@ -115,12 +115,12 @@ div.card div.description{
 }
 
 @media screen and (max-width: 500px){
-	div.navbar li.right,
-	div.navbar li{float:none;};
-	div.afternav{margin-top:250px;};
+	nav.navbar li.right,
+	nav.navbar li{float:none;};
+	div.afternav{margin-top:200px;};
 }
 
-div.downnav{
+footer.downnav{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -131,6 +131,6 @@ div.downnav{
 	width: 100%;
 }
 
-div.downnav p{
+footer.downnav p{
 	color:white;
 }
