@@ -6,3 +6,6 @@ How to run:
 
 Main page:
 ![GitHub Logo](/main.png)
+
+
+You can visit the site by clicking [here!](https://gabrielgenkov.github.io/WebProj/main/html/index.html)
